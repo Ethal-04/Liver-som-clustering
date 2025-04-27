@@ -29,12 +29,15 @@ The goal is to identify natural groupings among patients based on key biochemica
    pip install numpy pandas matplotlib scikit-learn minisom
    ```
 2. Run the main script:
-```bash
-python liver_som_clustering.py
-```
+  ```bash
+  python liver_som_clustering.py
+  ```
 3. Enter a new patient's blood parameters (Total Bilirubin, Direct Bilirubin, Alkaline Phosphatase, AST, Albumin) when prompted to map them on the SOM.
 
+
 🧠 Methodology
+
+
 Data normalization using Min-Max scaling.
 
 SOM grid size: 7x7 neurons.
@@ -43,7 +46,13 @@ Training iterations: 200.
 
 Visualize patient clusters and identify healthy vs diseased profiles based on clustering.
 
+
 🏥 Clinical Relevance
+
+
 This project demonstrates how unsupervised machine learning (SOM) can aid early detection of liver dysfunction by clustering blood test patterns, enabling faster clinical decisions without requiring extensive labeled data.
 
 📜 License
+
+This project is licensed under the MIT License.
+If you use this work or build upon it, please consider citing the relevant references included in the project.
